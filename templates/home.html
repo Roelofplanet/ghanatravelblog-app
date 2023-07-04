@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+
+<!--jumbotron-->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="jumbotron">
+        <h1 class="display-3">Welkom bij Ghana Travel Blog</h1>
+
+        <p class="lead">Lees over de reis ervaringen van anderen naar Ghana</p>
+
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Contact</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div id = "intro">
+  <p>Akwaaba, welkom bij Ghana Travel Blog. Op deze website kun je meer informatie vinden over het prachtige Ghana.
+    Lees over de reis ervaringen van anderen en post ook je eigen reis verhaal in de Blog pagina. 
+    Maak eerst een account aan en log in.</p>
+{% if user.is_authenticated %}
+  Welkom {{ user.username }}!
+  <br>
+  <br>
+  <p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+  <p>Je bent niet ingelogd</p>
+  <a href="{% url 'login' %}">Log In</a> |
+  <a href="{% url 'signup' %}">Sign Up</a>
+</div>
+{% endif %}
+{% endblock content %}
