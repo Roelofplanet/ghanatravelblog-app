@@ -134,10 +134,10 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"  # new
 CRISPY_TEMPLATE_PACK = "bootstrap5"  # new
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-DEFAULT_FROM_EMAIL = "info@ghanatravelblog.nl"
+DEFAULT_FROM_EMAIL = "info@roelofplanet.nl"
 EMAIL_HOST = "smtp.sendgrid.net"
 EMAIL_HOST_USER = "apikey"
-EMAIL_HOST_PASSWORD = "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"
+EMAIL_HOST_PASSWORD = "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"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
