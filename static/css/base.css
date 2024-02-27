@@ -5,11 +5,11 @@
 
 .jumbotron {
     /* Gebruik background-color als u alleen de achtergrondkleur wilt aanpassen */
-    background-image: url("/static/images/imgStrand.jpg");
+    background-image: url("/static/images/ghana_beach.jpg");
     background-size: cover;
     color: white;
-    height: 500px;
-    margin-top: 30px;
+    height: 375px;
+    margin-top: 15px;
   }
 
 
@@ -28,4 +28,13 @@
 
 #intro {
   font-size: large;
+}
+
+.card-header {
+  background-color: #90EE90;
+}
+
+a {
+  color:blue;
+  text-decoration: none;
 }

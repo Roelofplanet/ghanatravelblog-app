@@ -15,12 +15,13 @@
 
 </head>
 <body>
+
  <div class="container">
-    <header class="p-3 mb-3 border-bottom">
+    
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center
           justify-content-lg-start">
-          <a class="navbar-brand" href="{% url 'home' %}">Ghana Travel Blog</a>
+          
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center
             mb-md-0">
             {% if user.is_authenticated %}
@@ -41,9 +42,9 @@
           {% else %}
         </ul>
           <div class="text-end">
-            <a href="{% url 'login' %}" class="btn btn-outline-primary me-2">Log
+            <a href="{% url 'login' %}" class="btn btn-outline-success me-2">Log
               In</a>
-            <a href="{% url 'signup' %}" class="btn btn-primary">Sign Up</a>
+            <a href="{% url 'signup' %}" class="btn btn-success">Sign Up</a>
           </div>
           {% endif %}
         </div>
@@ -62,7 +63,20 @@
           </div>
         </div>
       </div>
-    </header>
+
+    <!--jumbotron-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="jumbotron">
+          <h1 class="display-3">Welkom bij Ghana Travel Blog</h1>
+          <p class="lead">Lees over de reis ervaringen van anderen naar Ghana</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
 
     <main>
       {% block content %}
