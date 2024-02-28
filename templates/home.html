@@ -5,11 +5,14 @@
 
 {% block content %}
 
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div id = "intro">
+        <p>Akwaaba, welkom bij Ghana Travel Blog. Op deze website kun je meer informatie vinden over het prachtige Ghana.
+          Lees over de reis ervaringen van anderen en post ook je eigen reis verhaal in de Blog pagina. 
+          Maak eerst een account aan en log in.</p>
 
-<div id = "intro">
-  <p>Akwaaba, welkom bij Ghana Travel Blog. Op deze website kun je meer informatie vinden over het prachtige Ghana.
-    Lees over de reis ervaringen van anderen en post ook je eigen reis verhaal in de Blog pagina. 
-    Maak eerst een account aan en log in.</p>
 {% if user.is_authenticated %}
   Welkom {{ user.username }}!
   <br>
@@ -19,6 +22,9 @@
   <p>Je bent niet ingelogd</p>
   <a href="{% url 'login' %}">Log In</a> |
   <a href="{% url 'signup' %}">Sign Up</a>
+      </div>
+    </div>
+  </div>
 </div>
 {% endif %}
 {% endblock content %}

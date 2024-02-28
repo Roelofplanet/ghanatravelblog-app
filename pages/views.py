@@ -8,8 +8,8 @@ from .forms import ContactForm
 class HomePageView(TemplateView):
     template_name = "home.html"
 
-class NieuwsPageView(TemplateView):
-    template_name = "nieuws.html"
+class AccomodatiePageView(TemplateView):
+    template_name = "accomodatie.html"
 
 
 # Contact form
