@@ -8,8 +8,12 @@
     background-image: url("/static/images/ghana_beach.jpg");
     background-size: cover;
     color: white;
-    height: 375px;
-    margin-top: 15px;
+    height: 350px;
+    margin-top: 10px;
+  }
+
+  .display-3 {
+    text-align: right;
   }
 
 
@@ -37,4 +41,8 @@
 a {
   color:blue;
   text-decoration: none;
+}
+
+.card {
+  
 }
