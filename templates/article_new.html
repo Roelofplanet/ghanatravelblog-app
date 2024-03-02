@@ -3,9 +3,12 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-<h1>Nieuw Artikel</h1>
+<div class="container">
+<h3>Nieuw Bericht</h3>
+<br>
 <form action="" method="post">{% csrf_token %}
   {{ form|crispy }}
-  <button class="btn btn-success ml-2" type="submit">Save</button>
+  <button class="btn btn-success ml-2" type="submit">Opslaan</button>
 </form>
+</div>
 {% endblock content %}

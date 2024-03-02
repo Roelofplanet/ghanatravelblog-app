@@ -43,6 +43,11 @@ a {
   text-decoration: none;
 }
 
-.card {
+.nav-link {
+  color:blue;
   
+}
+
+h2 {
+  text-align: center;
 }
