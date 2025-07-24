@@ -2,7 +2,7 @@
 
 This is a Django blog application where visitors can share their travel experiences about Ghana online. 
 For a clear and organized structure, the application is divided into three separate apps.
-The Accounts app is responsible for authentication. 
+The Accounts app is responsible for the authentication. 
 The Pages app handles the web pages, and the Posts app manages the data such as posts and comments that are stored in the database.
 
 ### Specifications
