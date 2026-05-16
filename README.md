@@ -20,4 +20,15 @@ The Pages app handles the web pages, and the Posts app manages the data such as 
 - Secure form CSRF tokens
 - Best practice cloud-based deployment on Heroku
 
+## Images
+
+#### Homepage
+![data_list](data_list.png)
+
+#### Add new data field
+![add_data](add_data.png)
+
+#### Postman API test
+![postman_test](postman_test.png)
+
 
