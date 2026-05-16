@@ -26,7 +26,7 @@ The Pages app handles the web pages, and the Posts app manages the data such as 
 ![homepage](docs/home_page.png)
 
 #### Register page
-![register_page](register_page.png)
+![register_page](docs/register_page.png)
 
 #### Postman API test
 ![postman_test](postman_test.png)
