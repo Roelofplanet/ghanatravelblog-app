@@ -25,10 +25,27 @@ The Pages app handles the web pages, and the Posts app manages the data such as 
 #### Homepage
 ![homepage](docs/home_page.png)
 
-#### Register page
+#### Registration
 ![register_page](docs/register_page.png)
 
-#### Postman API test
-![postman_test](postman_test.png)
+#### Login page
+![login_page](docs/login_page.png)
 
+#### New post
+![new_post](docs/new_post_page.png)
+
+#### Delete post
+![delete_post](docs/delete_post_page.png)
+
+#### Post List view
+![list_view](docs/list_view_page.png)
+
+#### Password reset
+![password_reset](docs/password_reset_page.png)
+
+#### Password change
+![password_change](docs/password_change_page.png)
+
+#### Admin panel
+![admin_panel](docs/django_admin_panel.png)
 
