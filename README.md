@@ -23,7 +23,7 @@ The Pages app handles the web pages, and the Posts app manages the data such as 
 ## Images
 
 #### Homepage
-![data_list](data_list.png)
+![homepage](homepage.png)
 
 #### Add new data field
 ![add_data](add_data.png)
