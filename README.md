@@ -38,7 +38,7 @@ The Pages app handles the web pages, and the Posts app manages the data such as 
 ![delete_post](docs/delete_post_page.png)
 
 #### Post List view
-![list_view](docs/list_view_page.png)
+![list_view](docs/list_page_view.png)
 
 #### Password reset
 ![password_reset](docs/password_reset_page.png)
